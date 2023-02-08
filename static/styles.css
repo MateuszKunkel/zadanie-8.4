@@ -1,0 +1,16 @@
+body {
+  background: lightblue;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: blue;
+}
+h2 {
+  color: grey;
+}
+h3 {
+  size: 15px;
+  color: purple;
+}

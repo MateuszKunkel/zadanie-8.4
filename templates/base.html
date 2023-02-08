@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% block head %}
+    <link href="{{ url_for('static', filename='styles.css') }}" rel="stylesheet" type="text/css">
+    {% endblock %}
+</head>
+
+<body>
+    <h1>
+        Witaj na mojej stronie domowej
+    </h1>
+    <h2>
+        Oto ja!
+    </h2>
+    <img src="https://pop.inquirer.net/files/2021/05/gigachad.jpg" alt="gigachadmeme">
+    <div id="content">{% block content %}{% endblock %}</div>
+    
+
+</body>
+
+</html>
